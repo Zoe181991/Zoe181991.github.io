@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>ITC PreCourse - Contact</title>
+</head>
+<body>
+
+  <header>
+  <nav>
+    <ul>
+
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./about.html">About</a></li>
+    <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    </nav>
+
+  </header>
+
+  <div class="wrapper">
+
+    <section>
+    <form action="https://formspree.io/f/mjvdvwla" method="POST">
+      <fieldset>
+        <legend>Contact</legend>
+      <p>
+
+<div class="formstyle">
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname" name="firstname" placeholder="Type your first name" required>
+  </p>
+    
+    <p>
+    <label for="lastname">Last Name</label>
+    <input type="text" id="lastname" name="lastname">
+  </p>
+    
+    <p>
+    <label for="email" required>
+        Your email:</label>
+        <input type="email" name="email" id="email" required>
+      </label>
+    </p>
+
+    <p>
+      <label for="phone">Phone number</label>
+      <input type="tel" name="phone" id="phone">
+    </p>
+
+      <p>
+      <label for="comment">
+        Add you comment:
+        <br>
+        <textarea name="comment" id="comment"  placeholder="Tell me about..." required></textarea>
+      </label>
+     </p>
+
+     <p>
+      <label for="contacthours">When is the best time to contact you?</label>
+        <select name="contacthours" id="contacthours" required>
+            <option selected>Select one...</option>
+            <option value="hours08_12">08:00-12:00</option>
+            <option value="hours12_16">12:00-16:00</option>
+            <option value="hours16_20">16:00-20:00</option>
+        </select>
+      </p>
+
+      <p>
+        <input type="checkbox" class="newsletter" name="newsletter" id="newsletter" checked>
+        <label for="newsletter" id="newsletter_label">I want to join your newsletter</label>
+      </p>
+
+
+      <p>
+      <button type="submit">Send</button>
+    </p>
+
+    </fieldset>
+    </form>
+  </div>
+  </section>
+  </div>
+
+    <footer>
+        <div>This website has been created with: HTML, CSS and JavaScript</div>
+      </footer>
+
+      <script src="./js/main.js"></script>  
+</body>
+</html>
